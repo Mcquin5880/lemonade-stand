@@ -1,16 +1,14 @@
 package com.cooksys.lemonadestand.entities;
 
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
 @NoArgsConstructor
-@Getter
-@Setter
+@Data
 public class LemonadeStand {
 
     @Id
